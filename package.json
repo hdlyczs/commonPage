@@ -1,0 +1,15 @@
+{
+  "name": "commonpage",
+  "version": "1.0.0",
+  "description": "常规页面跨域",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lyc",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.4",
+    "http-proxy-middleware": "^0.19.1"
+  }
+}

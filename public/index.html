@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+</head>
+<body>
+	<div>hello world</div>
+</body>
+	<script>
+		var url = '/api/banner/list';
+		$.ajax({
+			type : 'post',
+			url : url,
+			data: '',
+			dataType : 'json',
+			success : function(res){
+				console.log(res)
+			}
+		})
+	</script>
+</html>
